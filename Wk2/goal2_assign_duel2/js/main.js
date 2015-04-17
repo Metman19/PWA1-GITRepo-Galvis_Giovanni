@@ -35,7 +35,7 @@ Week #2 :: { Homework } - DEVELOP Duel #2
             //random formula is - Math.floor(Math.random() * (max - min) + min);
             var minDamage1 = playerOne[1] * .5; // damage var has been replaced with array info.
             var minDamage2 = playerTwo[1] * .5;
-            var f1 = Math.floor(Math.random()*(playerOne[1]-minDamage1)+minDamage1);
+            var f1 = Math.floor(Math.random()*(playerOne[1]-minDamage1)+minDamage1); //player damage has been included in this formula with info from array.
             var f2 = Math.floor(Math.random()*(playerTwo[1]-minDamage2)+minDamage2);
 
             //inflict damage

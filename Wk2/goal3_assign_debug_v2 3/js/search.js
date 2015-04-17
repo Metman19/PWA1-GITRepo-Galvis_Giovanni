@@ -79,9 +79,7 @@
 	var noMatch = function(){
 		var html = ''+
 			'<p>No Results found.</p>'+
-			'<p style="font-size:10px;">Try searching for "JavaScript".  Just an idea.</p>'
-		;
-		resultsDIV.innerHTML = html;
+			'<p style="font-size:10px;>Try searching for "JavaScript".  Just an idea.</p>' //There is a double quote sign when there should not be one.
 	};
 	
 	// Put matches into page as paragraphs with anchors

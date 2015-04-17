@@ -42,7 +42,7 @@ Week #2 :: { Homework } - DEVELOP Duel #2
             playerOne[2]-=f1;  //replaced the inflicted damage 
             playerTwo[2]-=f2;
 
-            console.log(playerOne[0]+": "+playerOne[2] + " " + playerTwo[0]+":"+playerTwo[2]);
+            console.log(playerOne[0]+": "+playerOne[2] + " " + playerTwo[0]+":"+playerTwo[2]); // console.log will display all the actions.
 
             //check for victor
             var result = winnerCheck();

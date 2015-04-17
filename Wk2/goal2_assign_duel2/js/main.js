@@ -29,7 +29,7 @@ Week #2 :: { Homework } - DEVELOP Duel #2
     var round=0;            //replaced all the names, damages, and health's with their place in the array's.
 
     function fight(){
-        alert(playerOne[0]+":"+playerOne[2]+"  *START*  "+playerTwo[0]+":"+playerTwo[2]);
+        alert(playerOne[0]+":"+playerOne[2]+"  *START*  "+playerTwo[0]+":"+playerTwo[2]); // alerts new array information.
         for (var i = 0; i < 10; i++)
         {
             //random formula is - Math.floor(Math.random() * (max - min) + min);

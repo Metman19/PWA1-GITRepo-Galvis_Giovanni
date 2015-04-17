@@ -1,5 +1,5 @@
 /**
- Giovanni Galvis
+ Giovanni Galvis  //Added my nmae and info for this assignment.
  04/16/2015
 Week #2 :: { Homework } - DEVELOP Duel #2 
 */

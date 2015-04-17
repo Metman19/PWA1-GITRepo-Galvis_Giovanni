@@ -33,13 +33,13 @@ Week #2 :: { Homework } - DEVELOP Duel #2
         for (var i = 0; i < 10; i++)
         {
             //random formula is - Math.floor(Math.random() * (max - min) + min);
-            var minDamage1 = playerOne[1] * .5;
+            var minDamage1 = playerOne[1] * .5; // damage var has been replaced with array info.
             var minDamage2 = playerTwo[1] * .5;
             var f1 = Math.floor(Math.random()*(playerOne[1]-minDamage1)+minDamage1);
             var f2 = Math.floor(Math.random()*(playerTwo[1]-minDamage2)+minDamage2);
 
             //inflict damage
-            playerOne[2]-=f1;
+            playerOne[2]-=f1;  //replaced the inflicted damage 
             playerTwo[2]-=f2;
 
             console.log(playerOne[0]+": "+playerOne[2] + " " + playerTwo[0]+":"+playerTwo[2]);

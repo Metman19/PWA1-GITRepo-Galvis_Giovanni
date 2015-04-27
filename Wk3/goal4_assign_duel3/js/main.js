@@ -1,7 +1,7 @@
 /**
  Giovanni Galvis  //Added my nmae and info for this assignment.
- 04/16/2015
-Week #2 :: { Homework } - DEVELOP Duel #2 
+ 04/26/2015
+Week #3 :: { Homework } - DEVELOP Duel #4 
 */
 
 // self-executing function

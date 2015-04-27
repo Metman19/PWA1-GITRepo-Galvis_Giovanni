@@ -1,17 +1,20 @@
+alert(2);
 /**
  Giovanni Galvis  //Added my nmae and info for this assignment.
- 04/16/2015
-Week #2 :: { Homework } - DEVELOP Duel #2 
+ 04/24/2015
+Week #3 :: { Homework } - DEVELOP Duel #2 
 */
 
 // self-executing function
-(function(){
+/*alert(function(){
 
     console.log("FIGHT!!!");
 
     //created an array with fighters data.
-    var playerOne = ["Spiderman", 20, 100];
-    var playerTwo = ["Batman",20, 100];
+    var playerOne = {name:"Spiderman", damage:20, health:100};
+    var playerTwo = {name:"Batman",damage:20, health:100};
+    var fighters = [playerOne, playerTwo];
+
 /*
     //player name
     var playerOneName = "Spiderman";    //the variables are blocked out
@@ -26,10 +29,18 @@ Week #2 :: { Homework } - DEVELOP Duel #2
     var playerTwoHealth = 100;
 */
     //initiate round
-    var round=0;            //replaced all the names, damages, and health's with their place in the array's.
+/*    var round=0;            //replaced all the names, damages, and health's with their place in the array's.
+
+var kabal = document.getElementById("kabal");
+kabal.innerHTML = "New Table";
+function myFunction() {
+    document.querySelector(".example").style.backgroundColor = "red";
+}
+
+
 
     function fight(){
-        alert(playerOne[0]+":"+playerOne[2]+"  *START*  "+playerTwo[0]+":"+playerTwo[2]); // alerts new array information.
+       (fighters[0]+":"+playerOne[2]+"  *START*  "+playerTwo[0]+":"+playerTwo[2]); // alerts new array information.
         for (var i = 0; i < 10; i++)
         {
             //random formula is - Math.floor(Math.random() * (max - min) + min);
@@ -50,10 +61,10 @@ Week #2 :: { Homework } - DEVELOP Duel #2
             if (result==="no winner")
             {
                 round++;
-                alert(playerOne[0]+":"+playerOne[2]+"  *ROUND "+round+" OVER"+"*  "+playerTwo[0]+":"+playerTwo[2]);
+             alert   (playerOne[0]+":"+playerOne[2]+"  *ROUND "+round+" OVER"+"*  "+playerTwo[0]+":"+playerTwo[2]);
 
             } else{
-                alert(result);
+              alert  (result);
                 break;
             };
 
@@ -64,17 +75,20 @@ Week #2 :: { Homework } - DEVELOP Duel #2
         var result="no winner";
         if (playerOne[2]<1 && playerTwo[2]<1)
         {
-            result = "You Both Die";
+           alert result = "You Both Die";
         } else if(playerOne[2]<1){
-            result =playerTwo[0]+" WINS!!!"
+          alert result =playerTwo[0]+" WINS!!!"
         } else if (playerTwo[2]<1)
         {
             result = playerOne[0]+" WINS!!!"
         };
        return result;
     };
+    function myFunction() {
+    document.getElementById("fightBox").innerHTML = "";
+}
 
     /*******  The program gets started below *******/
-    fight();
+  //  fight();
 
 })();

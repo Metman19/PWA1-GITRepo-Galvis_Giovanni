@@ -12,9 +12,9 @@ Week #3 :: { Homework } - DEVELOP Duel #4
     console.log("FIGHT!!!");
 
     //created an array with fighters data.
-    var playerOne = {name:"Spiderman", damage:20, health:100};
-    var playerTwo = {name:"Batman",damage:20, health:100};
-    var fighters = [playerOne,playerTwo];
+    var playerOne = {name:"Spiderman", damage:20, health:100};  //object for playerOne
+    var playerTwo = {name:"Batman",damage:20, health:100};    //object for playerTwo
+    var fighters = [playerOne,playerTwo];   //The array with the objects.
 /*
     //player name
     var playerOneName = "Spiderman";    //the variables are blocked out
@@ -32,7 +32,7 @@ Week #3 :: { Homework } - DEVELOP Duel #4
     var round=0;            //replaced all the names, damages, and health's with their place in the array's.
     var a = document.getElementById("kabal");
     console.log(a);
-    var b = document.getElementById("kratos");
+    var b = document.getElementById("kratos"); 
     console.log(b);
     function fight(){
          a.innerHTML = playerOne.name+":"+playerOne.health;

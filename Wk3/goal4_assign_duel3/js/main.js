@@ -7,6 +7,7 @@ Week #3 :: { Homework } - DEVELOP Duel #4
 // self-executing function
 
 
+ 
 (function(){
 
     console.log("FIGHT!!!");
@@ -76,9 +77,7 @@ Week #3 :: { Homework } - DEVELOP Duel #4
 
           };
     };
-var div = function myFunction(){
-    document.querySelector(".buttonblue").innerHTML;
-}
+
 var complete = document.querySelector(".buttonblue").innerHTML = "Done!!!";  //variable for button when duel is over.
     function winnerCheck(){
         var result="no winner";
